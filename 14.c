@@ -9,7 +9,7 @@ int main(){
     scanf("%d",&arr[i]);
     for(i=0;i<n;i++){      // represents each pass through the list
         for(j=0;j<n;j++){    // compares adjacent elements and swaps them if necessary
-            if (arr[i] > arr[j]) 
+            if (arr[i] > arr[j]) //ascending condn
                 {
                     a=arr[i];    //current elem ,is greater than the element being compared (arr[j]), and if true, the elements are swapp
                     arr[i]=arr[j];
@@ -21,6 +21,6 @@ int main(){
     for(i=0;i<n;i++){
         printf("%d\n",arr[i]);
     }
-
-
 }
+//to accept N numbers and arrange them in an descending order
+//(just reverse above code condition  if (arr[i] < arr[j])  that's it)
