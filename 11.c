@@ -1,25 +1,25 @@
  //to Find Sum of Array Elements using Pointer
- /*#include<stdio.h>
+ #include<stdio.h>
  int main(){
         int i,sum=0,n;
-        int *a;
-        a = (int *) malloc(n * sizeof(int));
+        int *ptr;
+        ptr = (int *) malloc(n * sizeof(int));
         printf("Enter size of array:");
         scanf("%d",&n);
         printf("Enter no. of elements:");
         for(i=0;i<n;i++){
-            scanf("%d",a+i);
+            scanf("%d",ptr+i);
         }
         for (i = 0; i < n; i++)
         {
-		    sum = sum + *(a + i); 
+		    sum = sum + *(ptr+ i); 
         }
         printf("Sum of all elemnts in array:%d\n",sum);
         return 0;
               
-	}*/
+	}
 
-  #include<stdio.h>
+  /*#include<stdio.h>
   void sumArray(int *a,int n)  {
         
         int sum=0,i;
@@ -50,7 +50,7 @@
         free(a);      // Free the allocated memory
         return 0;
         
-  }
+  }*/
  
 
 

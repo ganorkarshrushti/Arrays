@@ -8,8 +8,7 @@ int addnum(int *ptr){
     return(total);
   
 }
-
-int  main(){
+int main(){
     int arr[5]={3,4,6,7,8};
     int sum;
     //int addnum(int *ptr);
