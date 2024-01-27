@@ -1,9 +1,7 @@
 //To remove duplicate  Elements from an Array
 #include<stdio.h>
-
-int main() {
+int main(){
     int n, i, j, arr[10];
-
     // Input size of the array
     printf("Enter size of array: ");
     scanf("%d", &n);
@@ -19,26 +17,22 @@ int main() {
 
     for (i = 0; i < n; i++) {
         int j;
-
         // Check if the current element is already in 'temp'
         for (j = 0; j < count; j++) {
             if (arr[i] == temp[j]) {
-                break;
+                //break;
             }
         }
-
         // If the element is not found in 'temp', add it to 'temp'
         if (j == count) {
             temp[count] = arr[i];
             count++;
         }
     }
-
     // Print the unique elements after removing duplicates
     printf("\nArray After Removing Duplicates: ");
     for (i = 0; i < count; i++) {
         printf("%d ", temp[i]);
     }
-
     return 0;
 }
