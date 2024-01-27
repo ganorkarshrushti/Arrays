@@ -6,7 +6,7 @@ void printSquare(int arr[]){
     int i,x;
     int num [Max_Cols];
     for(int i=0; i < Max_Cols ; i++)
-        printf("%d\n", arr[i] * arr[i]);
+        printf("%d\n", arr[i] * arr[i]); //square of elem of array thats why arr*arr
 }       
 int main(){
     int i;
