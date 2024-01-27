@@ -1,4 +1,5 @@
 //to Input a String & Store their Ascii Values in an Integer Array & Print the Array
+//Ascii values?ASCII reserves the first 32 code points (numbers 0–31 decimal) and the last one (number 127 decimal) for control characters
 #include <stdio.h>
 int main(){
     char string[20];
